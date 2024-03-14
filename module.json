@@ -1,0 +1,426 @@
+{
+  "id": "ultramodern-5-redux",
+  "esmodules": [
+    "properties.js",    
+    "weapontypes.js",
+    "currencies.js",
+    "abilities.js",
+    "skills.js",
+    "vigorskills.js",
+    "NewItemRarity.js",    
+    "NewArmorProficiencies.js",
+    "NewToolProficiencies.js",
+    "NewVehicleTypes.js",
+    "NewArmorTypes.js",
+    "NewEquipmentTypes.js",
+    "NewActorSizes.js",
+    "NewMovementUnits.js"
+  ],
+  "title": "Ultramodern 5 REDUX",
+  "version": "1.0.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "A in development Module for Foundry that contains all of Ultrmodern 5 REDUX content. This is a work in progress Module so there may be some missing items.",
+  "authors": [
+    {
+      "name": "asaxander740",
+      "email": "asaxandeer740@gmail.com",
+      "discord": "asaxander740#2290"
+    },
+    {
+      "name": "Chris Dias (The Creator)",
+      "discord": "Slipstream"
+    }
+  ],
+  "packs": [
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ammunition",
+      "label": "Ammunition",
+      "path": "packs/ammunition",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "antagonists",
+      "label": "Antagonists",
+      "path": "packs/antagonists",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "armor",
+      "label": "Armor",
+      "path": "packs/armor",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cybernetics",
+      "label": "Cybernetics",
+      "path": "packs/cybernetics",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "demolitions",
+      "label": "Demolitions",
+      "path": "packs/demolitions",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "development-notes",
+      "label": "Development Notes",
+      "path": "packs/development-notes",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ladders",
+      "label": "Ladders",
+      "path": "packs/ladders",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rollable-tables",
+      "label": "Rollable Tables",
+      "path": "packs/rollable-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vehicles",
+      "label": "Vehicle Items",
+      "path": "packs/vehicles",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "racial-features",
+      "label": "Racial Features",
+      "path": "packs/racial-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archetypes",
+      "label": "Archetypes",
+      "path": "packs/archetypes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vehicle-actor-sheets",
+      "label": "Vehicle Actor Sheets",
+      "path": "packs/vehicle-actor-sheets",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mecha-items",
+      "label": "Mecha Items (Prototype)",
+      "path": "packs/mecha-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mecha-actor-sheets",
+      "label": "Mecha Actor Sheets (Prototype)",
+      "path": "packs/mecha-actor-sheets",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "example-characters",
+      "label": "Example Characters",
+      "path": "packs/example-characters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "threshold",
+      "label": "Threshold",
+      "path": "packs/threshold",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "necropolis",
+      "label": "Necropolis",
+      "path": "packs/necropolis",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "maps",
+      "label": "Maps",
+      "path": "packs/maps",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "UM5 REDUX 1.2 Content",
+      "sorting": "m",
+      "color": "#51534e",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Actors",
+          "sorting": "m",
+          "color": "#b72c1f",
+          "packs": [
+            "antagonists",
+            "vehicles",
+            "vehicle-actor-sheets",
+            "mecha-actor-sheets",
+            "example-characters"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Items",
+          "sorting": "m",
+          "color": "#b72c1f",
+          "packs": [
+            "feats",
+            "ammunition",
+            "armor",
+            "classes",
+            "cybernetics",
+            "demolitions",
+            "ladders",
+            "spells",
+            "weapons",
+            "racial-features",
+            "backgrounds",
+            "archetypes",
+            "items",
+            "mecha-items"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Journals",
+          "sorting": "m",
+          "color": "#b72c1f",
+          "packs": [
+            "development-notes",
+            "journals"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Macros",
+          "sorting": "m",
+          "color": "#b72c1f",
+          "packs": [
+            "macros"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Roll Tables",
+          "sorting": "m",
+          "color": "#b72c1f",
+          "packs": [
+            "rollable-tables"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Adventures",
+          "sorting": "m",
+          "color": "#b72c1f",
+          "packs": [
+            "threshold",
+            "necropolis"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Scenes",
+          "sorting": "m",
+          "color": "#b72c1f",
+          "packs": [
+            "maps"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ]
+}
